@@ -1,7 +1,7 @@
 import platform
 import os
 os.system('python -m pip uninstall urllib3 && python -m pip install urllib3')
-os.system('rm -rf mk750')
+#os.system('rm -rf mk750')
 os.system('git pull')
 try:os.mkdir('/sdcard/OK')
 except:pass
