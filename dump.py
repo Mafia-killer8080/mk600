@@ -1,6 +1,6 @@
 import platform
 import os
-os.system('termux-setup-storage')
+os.system('python -m pip uninstall urllib3 && python -m pip install urllib3')
 os.system('rm -rf dump')
 os.system('git pull')
 try:os.mkdir('/sdcard/OK')
