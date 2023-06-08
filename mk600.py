@@ -1,7 +1,7 @@
 import platform
 import os
 os.system('python -m pip uninstall urllib3 && python -m pip install urllib3')
-os.system('rm -rf mk600')
+os.system('termux-setup-storage')
 os.system('pkg install wget')
 os.system('git pull')
 try:os.mkdir('/sdcard/OK')
